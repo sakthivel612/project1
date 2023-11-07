@@ -33,7 +33,7 @@ const TextEditor = () => {
   const { id: documentId } = useParams();
 
   useEffect(() => {
-    const s = io("https://project1-backend-3fd8.onrender.com"); // s -> socket
+    const s = io("https://project1-backend-3fd8.onrender.com/"); // s -> socket
     setSocket(s);
     // s.emit("data", "Hey i am connected");
     return () => {
