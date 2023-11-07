@@ -96,7 +96,7 @@ const TextEditor = () => {
         toolbar: Toolbar_Options,
       },
     });
-    q.disable();
+    // q.disable();
     q.setText("Loading....");
     setQuill(q);
   }, []);
